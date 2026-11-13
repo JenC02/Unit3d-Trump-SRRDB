@@ -10,19 +10,19 @@ Mit diesem Tampermonkey script wird in der Torrents-Liste und auf der Torrent-De
 
 [URL=https://imgbox.com/oSLxn734][IMG]https://thumbs4.imgbox.com/89/41/oSLxn734_t.png[/IMG][/URL]
 
-[url=https://anonym.es/?<REPO_URL>]GitHub[/url]
+[url=https://anonym.es/?https://github.com/JenC02/Unit3d-Trump-SRRDB]GitHub[/url]
 [hr]
 [b]Installation[/b]
 [list=1]
 [*]Installiere die Browser-Erweiterung [url=https://anonym.es/?https://www.tampermonkey.net/]Tampermonkey[/url]
-[*]Öffne das [b][url=https://anonym.es/?<RAW_SCRIPT>]UserScript[/url][/b]
+[*]Öffne das [b][url=https://anonym.es/?https://github.com/JenC02/Unit3d-Trump-SRRDB/raw/refs/heads/main/Unit3d-Trump-SRRDB.user.js]UserScript[/url][/b]
 [*]Tampermonkey sollte automatisch den Installationsassistenten öffnen
 [*]Bestätige die Installation
 [/list]
 Sollte die automatische Installation nicht funktionieren:
 [list=1]
 [*]Klicke auf das Tampermonkey-Symbol → "Neues Script erstellen"
-[*]Ersetze den Template-Inhalt mit dem Inhalt des [b][url=https://anonym.es/?<RAW_SCRIPT>]UserScript[/url][/b]
+[*]Ersetze den Template-Inhalt mit dem Inhalt des [b][url=https://anonym.es/?https://github.com/JenC02/Unit3d-Trump-SRRDB/raw/refs/heads/main/Unit3d-Trump-SRRDB.user.js]UserScript[/url][/b]
 [*]Speichere das Script (Strg+S)
 [*]Lade die Unit3d-Seite neu
 [/list]

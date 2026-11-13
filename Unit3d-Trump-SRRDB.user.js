@@ -3,11 +3,11 @@
 // @namespace    Unit3d-Trump-SRRDB
 // @version      0.3.1
 // @description  Display torrent trump reasons and add SRRDB release links.
-// @author       <OWNER>
-// @homepageURL  <REPO_URL>
-// @supportURL   <REPO_URL>/issues
-// @downloadURL  <RAW_SCRIPT>
-// @updateURL    <RAW_SCRIPT>
+// @author       JenC02
+// @homepageURL  https://github.com/JenC02/Unit3d-Trump-SRRDB
+// @supportURL   https://github.com/JenC02/Unit3d-Trump-SRRDB/issues
+// @downloadURL  https://github.com/JenC02/Unit3d-Trump-SRRDB/raw/refs/heads/main/Unit3d-Trump-SRRDB.user.js
+// @updateURL    https://github.com/JenC02/Unit3d-Trump-SRRDB/raw/refs/heads/main/Unit3d-Trump-SRRDB.user.js
 // @match        https://*/torrents*
 // @run-at       document-idle
 // @run-at       document-idle
