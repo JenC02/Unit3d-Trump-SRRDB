@@ -1,0 +1,40 @@
+[size=30][b]Unit3d-Trump-SRRDB[/b][/size]
+
+In der Torrents-Liste kann man trumpable torrents filtern:
+- Alle torrents, die man herunter geladen hat, die trumpable sind: https://unit3d-tracker.com/torrents?trumpable=true&downloaded=true
+- Alle torrents, die man seeded, die trumpable sind: https://unit3d-tracker.com/torrents?trumpable=true&seeding=true
+
+Mit diesem Tampermonkey script wird in der Torrents-Liste und auf der Torrent-Details Seite hinter dem trumpable-Icon (Totenkopf):
+- Der Grund angezeigt, warum der Torrent als trumpable markiert wurde, den man sonst nur sehen kann, wenn man mit der Maus darüber hovered.
+- Ein SSRDB Button angezeigt, der eine SSRDB-Suche in einer neuen Tab öffnet (da kann man ggf. die fehlende nfo Datei herunter laden).
+
+[URL=https://imgbox.com/oSLxn734][IMG]https://thumbs4.imgbox.com/89/41/oSLxn734_t.png[/IMG][/URL]
+
+[url=https://anonym.es/?<REPO_URL>]GitHub[/url]
+[hr]
+[b]Installation[/b]
+[list=1]
+[*]Installiere die Browser-Erweiterung [url=https://anonym.es/?https://www.tampermonkey.net/]Tampermonkey[/url]
+[*]Öffne das [b][url=https://anonym.es/?<RAW_SCRIPT>]UserScript[/url][/b]
+[*]Tampermonkey sollte automatisch den Installationsassistenten öffnen
+[*]Bestätige die Installation
+[/list]
+Sollte die automatische Installation nicht funktionieren:
+[list=1]
+[*]Klicke auf das Tampermonkey-Symbol → "Neues Script erstellen"
+[*]Ersetze den Template-Inhalt mit dem Inhalt des [b][url=https://anonym.es/?<RAW_SCRIPT>]UserScript[/url][/b]
+[*]Speichere das Script (Strg+S)
+[*]Lade die Unit3d-Seite neu
+[/list]
+[hr]
+[b]Einstellungen[/b]
+
+In der Tampermonkey Menüleiste werden folgende Einstellungen angezeigt: [spoiler][URL=https://imgbox.com/gZ1HLIib][IMG]https://thumbs4.imgbox.com/aa/05/gZ1HLIib_t.png[/IMG][/URL][/spoiler]
+
+- Show reason = Wenn aktiviert wird der Grund angezeigt; wenn deaktiviert wird nur der Button angezeigt (falls aktiv)
+- Show button = Wenn aktiviert wird der SSRDB Button angezeigt; wenn deaktiviert wird nur der Grund angezeigt (falls aktiv)
+- Button only for NFO = Wenn aktiviert wird der SSRDB Button (falls aktiv) nur angezeigt, wenn der Grund "nfo" bzw. "NFO" enthält.
+[hr]
+[b]Wonach wird gesucht?[/b]
+
+Das Script sucht nach dem ersten Ordnernamen auf der Torrent-Details Seite angezeigt wird, wenn man auf "Zeige Dateien" klickt. Wenn kein Ordner vorhanden ist, wird als Fallback der Dateiname (ohne Dateiendung) aus der Mediainfo verwendet.
